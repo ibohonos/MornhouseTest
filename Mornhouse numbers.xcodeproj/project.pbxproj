@@ -8,17 +8,46 @@
 
 /* Begin PBXBuildFile section */
 		7A34D272294CB1B200C4187F /* Mornhouse_numbersApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D271294CB1B200C4187F /* Mornhouse_numbersApp.swift */; };
-		7A34D274294CB1B200C4187F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D273294CB1B200C4187F /* ContentView.swift */; };
 		7A34D276294CB1B200C4187F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A34D275294CB1B200C4187F /* Assets.xcassets */; };
 		7A34D279294CB1B200C4187F /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7A34D278294CB1B200C4187F /* Preview Assets.xcassets */; };
+		7A34D286294CB28200C4187F /* HomeScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D285294CB28200C4187F /* HomeScreenView.swift */; };
+		7A34D28A294CB2A900C4187F /* DetailScreenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D289294CB2A900C4187F /* DetailScreenView.swift */; };
+		7A34D28E294CB30500C4187F /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D28D294CB30500C4187F /* NetworkManager.swift */; };
+		7A34D290294CB31500C4187F /* HTTPMethod.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D28F294CB31500C4187F /* HTTPMethod.swift */; };
+		7A34D295294CB35800C4187F /* NetworkErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D294294CB35800C4187F /* NetworkErrorMessage.swift */; };
+		7A34D298294CB37100C4187F /* BaseRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D297294CB37100C4187F /* BaseRequest.swift */; };
+		7A34D29B294CB4DF00C4187F /* CharacterSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D29A294CB4DF00C4187F /* CharacterSet.swift */; };
+		7A34D2AF294CB88400C4187F /* NumbersService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D2AE294CB88400C4187F /* NumbersService.swift */; };
+		7A34D2B2294CBA1D00C4187F /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 7A34D2B1294CBA1D00C4187F /* Realm */; };
+		7A34D2B4294CBA1D00C4187F /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 7A34D2B3294CBA1D00C4187F /* RealmSwift */; };
+		7A34D2B7294CC6CC00C4187F /* GetNumberInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D2B6294CC6CC00C4187F /* GetNumberInformation.swift */; };
+		7A34D2B9294CC6DD00C4187F /* GetRandomNumberInformation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D2B8294CC6DD00C4187F /* GetRandomNumberInformation.swift */; };
+		7A34D2BE294CCB8700C4187F /* HomeScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D2BD294CCB8700C4187F /* HomeScreenViewModel.swift */; };
+		7A34D2C1294CCE6000C4187F /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D2C0294CCE6000C4187F /* Button.swift */; };
+		7A34D2C4294CD2BC00C4187F /* Fact.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D2C3294CD2BC00C4187F /* Fact.swift */; };
+		7A34D2C8294CD6CA00C4187F /* GetNumberResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7A34D2C7294CD6CA00C4187F /* GetNumberResponse.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		7A34D26E294CB1B200C4187F /* Mornhouse numbers.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Mornhouse numbers.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7A34D271294CB1B200C4187F /* Mornhouse_numbersApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mornhouse_numbersApp.swift; sourceTree = "<group>"; };
-		7A34D273294CB1B200C4187F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7A34D275294CB1B200C4187F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7A34D278294CB1B200C4187F /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7A34D285294CB28200C4187F /* HomeScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenView.swift; sourceTree = "<group>"; };
+		7A34D289294CB2A900C4187F /* DetailScreenView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailScreenView.swift; sourceTree = "<group>"; };
+		7A34D28D294CB30500C4187F /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		7A34D28F294CB31500C4187F /* HTTPMethod.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HTTPMethod.swift; sourceTree = "<group>"; };
+		7A34D294294CB35800C4187F /* NetworkErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrorMessage.swift; sourceTree = "<group>"; };
+		7A34D297294CB37100C4187F /* BaseRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseRequest.swift; sourceTree = "<group>"; };
+		7A34D29A294CB4DF00C4187F /* CharacterSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterSet.swift; sourceTree = "<group>"; };
+		7A34D2AE294CB88400C4187F /* NumbersService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NumbersService.swift; sourceTree = "<group>"; };
+		7A34D2B6294CC6CC00C4187F /* GetNumberInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNumberInformation.swift; sourceTree = "<group>"; };
+		7A34D2B8294CC6DD00C4187F /* GetRandomNumberInformation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetRandomNumberInformation.swift; sourceTree = "<group>"; };
+		7A34D2BD294CCB8700C4187F /* HomeScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeScreenViewModel.swift; sourceTree = "<group>"; };
+		7A34D2C0294CCE6000C4187F /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
+		7A34D2C3294CD2BC00C4187F /* Fact.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fact.swift; sourceTree = "<group>"; };
+		7A34D2C5294CD35300C4187F /* Mornhouse-numbers-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "Mornhouse-numbers-Info.plist"; path = "Mornhouse numbers/Resources/Mornhouse-numbers-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7A34D2C7294CD6CA00C4187F /* GetNumberResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetNumberResponse.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +55,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7A34D2B4294CBA1D00C4187F /* RealmSwift in Frameworks */,
+				7A34D2B2294CBA1D00C4187F /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -51,9 +82,11 @@
 		7A34D270294CB1B200C4187F /* Mornhouse numbers */ = {
 			isa = PBXGroup;
 			children = (
-				7A34D271294CB1B200C4187F /* Mornhouse_numbersApp.swift */,
-				7A34D273294CB1B200C4187F /* ContentView.swift */,
-				7A34D275294CB1B200C4187F /* Assets.xcassets */,
+				7A34D27F294CB1F800C4187F /* Application */,
+				7A34D280294CB20500C4187F /* Core */,
+				7A34D2AD294CB7C700C4187F /* Services */,
+				7A34D281294CB21000C4187F /* Flows */,
+				7A34D282294CB22900C4187F /* Resources */,
 				7A34D277294CB1B200C4187F /* Preview Content */,
 			);
 			path = "Mornhouse numbers";
@@ -65,6 +98,186 @@
 				7A34D278294CB1B200C4187F /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7A34D27F294CB1F800C4187F /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D271294CB1B200C4187F /* Mornhouse_numbersApp.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		7A34D280294CB20500C4187F /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D28B294CB2DE00C4187F /* Network */,
+				7A34D299294CB4CA00C4187F /* Extentions */,
+				7A34D2BA294CC7BF00C4187F /* Realm */,
+				7A34D2BF294CCE4200C4187F /* Helpers */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		7A34D281294CB21000C4187F /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D287294CB29300C4187F /* DetailScreen */,
+				7A34D283294CB25200C4187F /* HomeScreen */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		7A34D282294CB22900C4187F /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2C5294CD35300C4187F /* Mornhouse-numbers-Info.plist */,
+				7A34D275294CB1B200C4187F /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		7A34D283294CB25200C4187F /* HomeScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2BC294CCB0F00C4187F /* ViewModel */,
+				7A34D284294CB26500C4187F /* View */,
+			);
+			path = HomeScreen;
+			sourceTree = "<group>";
+		};
+		7A34D284294CB26500C4187F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D285294CB28200C4187F /* HomeScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A34D287294CB29300C4187F /* DetailScreen */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D288294CB29C00C4187F /* View */,
+			);
+			path = DetailScreen;
+			sourceTree = "<group>";
+		};
+		7A34D288294CB29C00C4187F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D289294CB2A900C4187F /* DetailScreenView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7A34D28B294CB2DE00C4187F /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D28C294CB2F300C4187F /* Manager */,
+				7A34D291294CB31B00C4187F /* Errors */,
+				7A34D292294CB32B00C4187F /* Requests */,
+				7A34D2C6294CD6B400C4187F /* Responses */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		7A34D28C294CB2F300C4187F /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D28D294CB30500C4187F /* NetworkManager.swift */,
+				7A34D28F294CB31500C4187F /* HTTPMethod.swift */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		7A34D291294CB31B00C4187F /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D294294CB35800C4187F /* NetworkErrorMessage.swift */,
+			);
+			path = Errors;
+			sourceTree = "<group>";
+		};
+		7A34D292294CB32B00C4187F /* Requests */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2B5294CC6B300C4187F /* NumbersRequests */,
+				7A34D296294CB36200C4187F /* BaseRequests */,
+			);
+			path = Requests;
+			sourceTree = "<group>";
+		};
+		7A34D296294CB36200C4187F /* BaseRequests */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D297294CB37100C4187F /* BaseRequest.swift */,
+			);
+			path = BaseRequests;
+			sourceTree = "<group>";
+		};
+		7A34D299294CB4CA00C4187F /* Extentions */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D29A294CB4DF00C4187F /* CharacterSet.swift */,
+			);
+			path = Extentions;
+			sourceTree = "<group>";
+		};
+		7A34D2AD294CB7C700C4187F /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2AE294CB88400C4187F /* NumbersService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		7A34D2B5294CC6B300C4187F /* NumbersRequests */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2B6294CC6CC00C4187F /* GetNumberInformation.swift */,
+				7A34D2B8294CC6DD00C4187F /* GetRandomNumberInformation.swift */,
+			);
+			path = NumbersRequests;
+			sourceTree = "<group>";
+		};
+		7A34D2BA294CC7BF00C4187F /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2C2294CD13100C4187F /* Models */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		7A34D2BC294CCB0F00C4187F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2BD294CCB8700C4187F /* HomeScreenViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		7A34D2BF294CCE4200C4187F /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2C0294CCE6000C4187F /* Button.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		7A34D2C2294CD13100C4187F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2C3294CD2BC00C4187F /* Fact.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7A34D2C6294CD6B400C4187F /* Responses */ = {
+			isa = PBXGroup;
+			children = (
+				7A34D2C7294CD6CA00C4187F /* GetNumberResponse.swift */,
+			);
+			path = Responses;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +296,10 @@
 			dependencies = (
 			);
 			name = "Mornhouse numbers";
+			packageProductDependencies = (
+				7A34D2B1294CBA1D00C4187F /* Realm */,
+				7A34D2B3294CBA1D00C4187F /* RealmSwift */,
+			);
 			productName = "Mornhouse numbers";
 			productReference = 7A34D26E294CB1B200C4187F /* Mornhouse numbers.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +328,9 @@
 				Base,
 			);
 			mainGroup = 7A34D265294CB1B100C4187F;
+			packageReferences = (
+				7A34D2B0294CBA1D00C4187F /* XCRemoteSwiftPackageReference "realm-swift" */,
+			);
 			productRefGroup = 7A34D26F294CB1B200C4187F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -137,8 +357,21 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7A34D274294CB1B200C4187F /* ContentView.swift in Sources */,
+				7A34D2C8294CD6CA00C4187F /* GetNumberResponse.swift in Sources */,
+				7A34D28E294CB30500C4187F /* NetworkManager.swift in Sources */,
+				7A34D2BE294CCB8700C4187F /* HomeScreenViewModel.swift in Sources */,
+				7A34D295294CB35800C4187F /* NetworkErrorMessage.swift in Sources */,
+				7A34D2B9294CC6DD00C4187F /* GetRandomNumberInformation.swift in Sources */,
 				7A34D272294CB1B200C4187F /* Mornhouse_numbersApp.swift in Sources */,
+				7A34D298294CB37100C4187F /* BaseRequest.swift in Sources */,
+				7A34D2AF294CB88400C4187F /* NumbersService.swift in Sources */,
+				7A34D28A294CB2A900C4187F /* DetailScreenView.swift in Sources */,
+				7A34D290294CB31500C4187F /* HTTPMethod.swift in Sources */,
+				7A34D29B294CB4DF00C4187F /* CharacterSet.swift in Sources */,
+				7A34D2B7294CC6CC00C4187F /* GetNumberInformation.swift in Sources */,
+				7A34D2C4294CD2BC00C4187F /* Fact.swift in Sources */,
+				7A34D2C1294CCE6000C4187F /* Button.swift in Sources */,
+				7A34D286294CB28200C4187F /* HomeScreenView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -270,11 +503,14 @@
 				DEVELOPMENT_TEAM = FC5DQPG9SA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mornhouse numbers/Resources/Mornhouse-numbers-Info.plist";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +535,14 @@
 				DEVELOPMENT_TEAM = FC5DQPG9SA;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "Mornhouse numbers/Resources/Mornhouse-numbers-Info.plist";
+				INFOPLIST_KEY_NSFileProviderDomainUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +578,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7A34D2B0294CBA1D00C4187F /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.33.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7A34D2B1294CBA1D00C4187F /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A34D2B0294CBA1D00C4187F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		7A34D2B3294CBA1D00C4187F /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7A34D2B0294CBA1D00C4187F /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7A34D266294CB1B100C4187F /* Project object */;
 }

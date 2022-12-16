@@ -11,7 +11,9 @@ import SwiftUI
 struct Mornhouse_numbersApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            NavigationView {
+                HomeScreenView()
+            }
         }
     }
 }
